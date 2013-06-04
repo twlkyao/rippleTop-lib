@@ -1,7 +1,7 @@
 rippleTop-lib
 =============
 
-Ripple API lib create by [rippletop.com](http://ripple.com/).
+Ripple API lib create by [rippletop.com](http://rippletop.com/).
 
 Email: <rippletop@gmail.com>
 
