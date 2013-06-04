@@ -12,7 +12,6 @@ require dirname(__FILE__).'/test_common.php';
  * @see <https://ripple.com/wiki/RPC_API#account_offers>
  */
 
-// Return information about the specified account's ripple credit lines.
 $resp = $ripple->account_offers(array("account" => "rsKn8hGfNDAVuEdZ3NHXUqqZzp8uDiLUK9"));
 if ($resp['status'] != 'success') {
 	// do something handle error
