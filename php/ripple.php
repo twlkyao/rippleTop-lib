@@ -31,7 +31,9 @@ $resp = $ripple->$method(json_decode($params, 1));
 
 if ($resp['status'] != 'success') {
 	// do something handle error
+	echo "\033[31m============ Requset ERROR: ============\n";
 	var_dump($resp);
+	echo "\033[0m";
 	exit;
 }
 
